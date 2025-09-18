@@ -1,8 +1,10 @@
+import React from "react"
 
-const Country = () => {
+const Country = ({ country }) => {
+    console.log(country.name.common)
   return (
     <div>
-        <h1>Name: </h1>
+        <h3>Name: {country.name.common} </h3>
     </div>
   )
 }
