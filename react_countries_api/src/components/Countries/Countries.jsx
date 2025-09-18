@@ -1,5 +1,6 @@
 
-const Countries = () => {
+const Countries = ({countriesPromise}) => {
+
   return (
     <div>
         <h1>In the Countries: </h1>
