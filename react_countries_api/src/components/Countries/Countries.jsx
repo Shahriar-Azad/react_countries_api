@@ -14,6 +14,7 @@ const Countries = ({countriesPromise}) => {
             countries.map(country=> <Country country={country}></Country>)
         }
 
+        <p>this is brazil </p>
     </div>
   )
 }
